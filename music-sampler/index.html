@@ -20,36 +20,49 @@
 
     <p>In April of 2022, she released her debut single, "Tattoos," quickly followed by her debut EP, Everything to Everyone, in November 2022. After the success of these first few releases, in August of 2023, Rapp released her first full-length studio album, Snow Angel. With pop and indie influences, Rapp’s music can be characterized by her vulnerable lyrics and powerful vocals. Only a few years into her career, Rapp has sold-out tours and international performances, and she has recently announced her return as Regina George in the film adaptation of Mean Girls, which is set to release on January 12, 2024.</p>
 
-    <img src="images/tattoos.jpg" alt="Album cover: Tattoos">
-    <img src="images/everything_to_everyone.jpg" alt="Album cover: Everything to Everyone">
-    <img src="images/everything_to_everyone_deluxe.jpg" alt="Everything to Everyone(Deluxe Edition)">
-    <img src="images/snow_angel.jpg" alt="Album cover: Snow Angel">
+    <img src="images/tattoos.jpg" id="tattoos_cover" class="album" alt="Album cover: Tattoos">
+    <img src="images/everything_to_everyone.jpg" id="kitchen_cover"class="album" alt="Album cover: Everything to Everyone">
+    <img src="images/everything_to_everyone_deluxe.jpg" id="bruises_cover"class="album" alt="Everything to Everyone(Deluxe Edition)">
+    <img src="images/snow_angel.jpg" class="album" id="boston_cover"alt="Album cover: Snow Angel">
 
-    <audio id="tattoos" controls preload="auto"> 
-        <source src="audio/tattoos.mp3" type="audio/mp3"> 
-        <source src="audio/tattoos.ogg" type="audio/ogg"> 
-    </audio>
-   
-    <audio id="kitchen" controls preload="auto"> 
-        <source src="audio/kitchen.mp3" type="audio/mp3"> 
-        <source src="audio/kitchen.ogg" type="audio/ogg"> 
-    </audio>
-    
-    <audio id="bruises" controls preload="auto"> 
-        <source src="audio/bruises.mp3" type="audio/mp3"> 
-        <source src="audio/bruises.ogg" type="audio/ogg"> 
-    </audio>
 
-    <audio id="boston" controls preload="auto"> 
-        <source src="audio/boston.mp3" type="audio/mp3"> 
-        <source src="audio/boston.ogg" type="audio/ogg"> 
-    </audio>
-    
+    <div id="tattoos">
+        <audio id="tattoos_audio" class="song" controls preload="auto"> 
+            <source src="audio/tattoos.mp3" type="audio/mp3"> 
+            <source src="audio/tattoos.ogg" type="audio/ogg"> 
+        </audio>
+        <p class="names">Tattoos</p>
+    </div>
+
+    <div id="kitchen">
+        <audio id="kitchen_audio" class="song" controls preload="auto"> 
+             <source src="audio/kitchen.mp3" type="audio/mp3"> 
+            <source src="audio/kitchen.ogg" type="audio/ogg"> 
+        </audio>
+        <p class="names">In the Kitchen</p>
+    </div>
+
+    <div id="bruises">
+        <audio id="bruises_audio" class="song" controls preload="auto"> 
+            <source src="audio/bruises.mp3" type="audio/mp3"> 
+            <source src="audio/bruises.ogg" type="audio/ogg"> 
+        </audio>
+        <p class="names">Bruises</p>
+    </div>
+
+    <div id="boston">
+        <audio id="boston_audio" class="song" controls preload="auto"> 
+            <source src="audio/boston.mp3" type="audio/mp3"> 
+            <source src="audio/boston.ogg" type="audio/ogg"> 
+        </audio>
+        <p class="names">I Hate Boston</p>
+    </div>
 
     <footer>
-        <p>This <a href="https://github.com/ClareMeyers/Reneé-Rapp-Sampler">page</a> was created by Clare Meyers for an assignment on JS switch statements for the University of Florida course <b>Introduction to Web Apps</b>.</p>
-     </footer>
-        
+        <p>This <a href="https://github.com/ClareMeyers/Renee-Rapp-Sampler">page</a> was created by Clare Meyers for an assignment on JS switch statements for the University of Florida course <b>Introduction to Web Apps</b>.</p>
+    </footer>
 
+    <script src="main.js"></script>
+        
 </body>
 </html>
